@@ -4,35 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
     <title>Instagram Clone</title>
 </head>
 <body>
     <header></header>
-    <section id="login_container">
-        <section id="preview "class="preview"></section>
-        <section id="login" class="login">
-            <div id="logo"></div>
-            <div id="login_form">
-                <form action="">
-                    <input type="text" placeholder="Phone number, username or email">
-                    <input type="text" placeholder="Password">
-                    <input type="submit" value="Log In">
-                </form>
-            </div>
-            <p>---------------------OR---------------------</p>
-            <a href="facebook.com">Log in with Facebook</a>
-            <p>Forgot password?</p>
-        </section>
-        <section id="sign_up" class="sign_up">
-            <p>Don't have an account?</p><a href="https://www.instagram.com/accounts/emailsignup/">Sign up</a>
-        </section>
-        <p>Get the app.</p>
-        <div id="store_buttons" class="store_buttons">
-            <button id="apple_store_btn"></button>
-            <button id="play_store_btn"></button>
+    <div class="main_container">
+        <div id="preview "class="preview">
+            <img src="styles/sass/imgs/phones.png" alt="">
         </div>
-    </section>
+        <div id="login_container" class="login_container">
+            <div id="login" class="login">
+                <div id="logo" class="logo"><img src="styles/sass/imgs/instagram_letters.png" alt=""></div>
+                <div id="login_form">
+                    <form action="" class="login_form">
+                        <input type="text" placeholder="Phone number, username or email">
+                        <input type="text" placeholder="Password">
+                        <input type="submit" value="Log In" class="login_btn">
+                    </form>
+                </div>
+                <div class="separator">
+                    <div><hr></div>
+                    <div>OR</div>
+                    <div><hr></div>
+                </div>
+                <div class="facebook_login">
+                    <img src="styles/sass/imgs/facebook.png" alt="facebook logo">
+                    <p>Log in with Facebook</p>
+                </div>    
+                <div class="password_helper">
+                    <p>Forgot your password?</p>
+                </div>
+                
+            </div>
+            <div id="sign_up" class="sign_up">
+                <p>Don't have an account?</p><a href="https://www.instagram.com/accounts/emailsignup/">Sign up</a>
+            </div>
+            <div class="get_the_app">
+                <p>Get the app.</p>
+            </div>
+            <div id="store_buttons" class="store_buttons">
+                <img src="styles/sass/imgs/app_store.png" alt="">
+                <img src="styles/sass/imgs/play_store.png" alt="">
+            </div>
+        </div>
+    </div>
     
-    <footer></footer>
+    
+    <footer>
+        <div class="links">
+            <div>ABOUT</div>
+            <div>HELP</div>
+            <div>PRESS</div>
+            <div>API</div>
+            <div>JOBS</div>
+            <div>PRIVACY</div>
+            <div>TERMS</div>
+            <div>LOCATION</div>
+            <div>TOP ACCOUNTS</div>
+            <div>HASHTAGS</div>
+            <div>LANGUAGE</div>
+        </div>
+        <div class="credentials">
+            <div>© 2021 INSTAGRAM FROM FACEBOOK</div>
+        </div>
+    </footer>
 </body>
 </html>

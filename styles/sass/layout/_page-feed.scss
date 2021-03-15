@@ -1,0 +1,50 @@
+.header_feed{
+    @include flexCenter;
+    justify-content: space-evenly;
+    height: 50px;
+}
+.logo {
+    img{
+        max-height: 50px;
+        width: auto;
+    }
+    
+}
+.searchBar {
+    width: 150px;
+    border: 1px solid gray;
+    font-size: 10px;
+    padding-left: 20px;
+    height: 20px;
+
+
+}
+
+.icons {
+    @include flexCenter;
+    img {
+        max-height: 20px;
+        width: auto;
+        margin: 5px;
+    }
+}
+.main_container_feed {
+}
+.post_container {
+    @include flexCenter;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.post_header {
+    height: 60px;
+}
+
+.post_img {
+    img {
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+        
+    }
+}
